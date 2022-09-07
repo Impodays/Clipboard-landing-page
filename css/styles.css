@@ -61,6 +61,12 @@ body {
   justify-content: center;
 }
 
+main {
+  background-image: url("../images/bg-header-mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .container {
   /* max-width: 23rem; */
   text-align: center;
@@ -304,6 +310,9 @@ body {
 }
 
 @media screen and (min-width: 992px) {
+  main {
+    background-image: url("../images/bg-header-desktop.png");
+  }
   .container {
     /* max-width: 992px; */
     max-width: 1440px;
